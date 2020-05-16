@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package repro;
+
+message Repro {
+  message SubMessage {
+    uint64 field = 1;
+  }
+  SubMessage sub = 1;
+}

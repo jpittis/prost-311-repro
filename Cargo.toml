@@ -1,0 +1,12 @@
+[package]
+name    = "prost-331-repro"
+version = "0.1.0"
+authors = ["Jake Pittis <jakepittis@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bytes = "*"
+prost = "*"
+
+[build-dependencies]
+prost-build = "*"
